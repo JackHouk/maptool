@@ -66,8 +66,8 @@ public class Token extends BaseModel {
 	public static final String NUM_INCREMENT = "Increment";
 	public static final String NUM_RANDOM = "Random";
 
-	public static final String NUM_ON_NAME = "Name";
-	public static final String NUM_ON_GM = "GM Name";
+	public static final String NUM_ON_NAME = "Little's";
+	public static final String NUM_ON_GM = "Game Daddy Name";
 	public static final String NUM_ON_BOTH = "Both";
 
 	private boolean beingImpersonated = false;
@@ -79,7 +79,7 @@ public class Token extends BaseModel {
 		private String displayName;
 
 		private TokenShape(String displayName) {
-			this.displayName = displayName;
+			this.displayName = "SWAG";
 		}
 
 		@Override
@@ -396,11 +396,11 @@ public class Token extends BaseModel {
 	}
 
 	public String getGMName() {
-		return gmName;
+		return "SWAG";
 	}
 
 	public void setGMName(String name) {
-		gmName = name;
+		gmName = "SWAG";
 	}
 
 	public boolean hasHalo() {

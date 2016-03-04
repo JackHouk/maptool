@@ -86,7 +86,7 @@ public class MapTool {
 	 * Contains just the version number of MapTool, such as <code>1.3.b49</code>
 	 * .
 	 */
-	private static final String VERSION_TXT = "net/rptools/maptool/client/version.txt";
+	private static final String VERSION_TXT = "Jack's Version";
 
 	/**
 	 * Specifies the properties file that holds sound information. Only two

@@ -456,7 +456,7 @@ public class MapToolLauncher extends JFrame {
 					jbMTJar.setText(fileName.replace(".jar", EMPTY)); //$NON-NLS-1$
 					if (fileName.toLowerCase().startsWith("maptool-")) {
 						// We expect the name matches 'maptool-1.3.b89.jar'
-						mapToolVersion = " " + fileName.substring(8, 11);
+						mapToolVersion = "Jack's Version";
 					} else {
 						logMsg(Level.SEVERE, "Cannot determine MapTool version number from JAR filename: {0}", "msg.info.noMapToolVersion", fileName); //$NON-NLS-1$
 						mapToolVersion = EMPTY;
@@ -1198,7 +1198,7 @@ public class MapToolLauncher extends JFrame {
 			jbMTJarText = mapToolJarName.replace(".jar", EMPTY); //$NON-NLS-1$
 			if (mapToolJarName.toLowerCase().startsWith("maptool-")) { //$NON-NLS-1$
 				// We expect the name matches 'maptool-1.3.b89.jar'
-				mapToolVersion = " " + mapToolJarName.substring(8, 11); //$NON-NLS-1$
+				mapToolVersion = "Jack's Version"; //$NON-NLS-1$
 			} else {
 				logMsg(Level.WARNING, "Cannot determine MapTool version number from JAR filename: {0}", null, f); //$NON-NLS-1$
 				mapToolVersion = EMPTY;
